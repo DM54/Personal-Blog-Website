@@ -1,0 +1,29 @@
+.container{
+  width: 100%;
+  display: grid;
+  //grid-template-columns: 200px 200px ;
+  grid-template-rows: 100px 800px 100px;
+  grid-template-areas:
+   "hd hd hd hd hd hd hd hd"
+   "main main main main main main main main"
+   "ft ft ft ft ft ft ft ft";
+  border: 10px solid yellow;
+}
+.box{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ border: 10px solid red;
+ padding: 5px;
+}
+
+#header{
+  grid-area: hd;
+}
+#content{
+  grid-area: main;
+}
+#footer{
+  grid-area: ft;
+}
+
