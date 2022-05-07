@@ -1,0 +1,16 @@
+.designsyscontainer{
+   width: 100%;
+   display: grid;
+   grid-template-rows: 200px;
+   grid-template-columns: repeat(4, 1fr);
+   grid-template-areas:
+   "hd hd hd hd hd hd hd hd"
+   "feat feat feat feat feat feat feat feat";
+}
+
+#header{
+  grid-area: hd;
+}
+#feature{
+  grid-area: feat;
+}
