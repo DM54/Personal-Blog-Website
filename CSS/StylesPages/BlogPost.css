@@ -1,18 +1,20 @@
-//container for grid
-.ct{
+.maincontent{ //container for grid
  width: 100%;
  display: grid;
- grid-template-rows: 100px;
+ grid-template-rows: 600px;
+ //grid-template-columns: 100px;
  grid-template-areas:
- "cont cont cont cont cont cont cont cont"
+ "ct ct ct ct ct ct sos sos"
  "soc soc soc soc soc soc soc soc";
  border: 10px solid yellow;
 }
-
+//content
 #blogfeat{
-  grid-area: cont;
+  grid-area: ct;
 }
-
+#sos{
+  grid-area: sos;
+}
 #socials{
   grid-area: soc;
 }
@@ -22,11 +24,39 @@
   border-radius: 50%;
   width: 100px;
   height: 100px;
-  margin: 50px 200px 50px -200px;
+  margin: 50px 200px 50px 200px;
 }
 
-.alignment{
-  margin: auto;
+.picsize{
+  max-width: 100%;
+  height: auto;
+  margin: 10px 150px 10px 150px;
 }
+
+.blognestedgrid{
+  width: 100%;
+  // height: 90vh;
+   display: grid;
+   grid-template-rows: 250px 250px;
+   grid-template-columns: 150px;
+   grid-template-areas:
+   "blg1 blg1 blg1 blg1 blg2 blg2 blg3 blg3";
+   grid-gap: 10px 10px;
+  // border: 4px solid blue;
+}
+
+#blog1{
+  grid-area: blg1;
+}
+#blog2{
+  grid-area: blg2;
+}
+#blog3{
+  grid-area: blg3;
+}
+
+
+
+
 
 
