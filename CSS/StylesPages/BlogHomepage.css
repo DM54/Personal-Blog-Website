@@ -2,28 +2,72 @@
   width: 100%;
   display: grid;
   //grid-template-columns: 200px 200px ;
-  grid-template-rows: 100px 800px 100px;
+  grid-template-rows: 200px 850px 200px;
   grid-template-areas:
    "hd hd hd hd hd hd hd hd"
    "main main main main main main main main"
    "ft ft ft ft ft ft ft ft";
-  border: 10px solid yellow;
+  //border: 10px solid yellow;
 }
 .box{
  display: flex;
  align-items: center;
  justify-content: center;
- border: 10px solid red;
+// border: 10px solid red;
  padding: 5px;
+}
+
+a{
+  padding: 10px;
 }
 
 #header{
   grid-area: hd;
+ // background-color: beige;
 }
 #content{
   grid-area: main;
 }
 #footer{
   grid-area: ft;
+ // background-color: beige;
+}
+
+.cardnestedgrid{
+  width: 100%;
+ // height: 90vh;
+  display: grid;
+  grid-template-rows: 450px;
+  //grid-template-columns: 150px ;
+  grid-template-areas:
+  "crd1 crd1 crd1 crd1 crd2 crd2 crd2 crd2"
+  "crd3 crd3 crd3 crd3 crd4 crd4 crd4 crd4";
+  grid-gap: 10px 10px;
+ // border: 4px solid blue;
+}
+
+#cardbox1{
+  grid-area: crd1;
+}
+
+#cardbox2{
+  grid-area: crd2;
+}
+#cardbox3{
+  grid-area: crd3;
+}
+#cardbox4{
+  grid-area: crd4;
+}
+
+.card{
+  box-shadow: 2px 3px 4px gray;
+  text-align: center;
+  width: 300px;
+  height: 400px;
+  margin: auto;
+}
+.card:hover{
+  box-shadow: 2px 3px 4px red;
 }
 
