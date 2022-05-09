@@ -2,7 +2,7 @@
   width: 100%;
   display: grid;
   //grid-template-columns: 200px 200px ;
-  grid-template-rows: 200px 850px 200px;
+  grid-template-rows: 100px 850px 200px;
   grid-template-areas:
    "hd hd hd hd hd hd hd hd"
    "main main main main main main main main"

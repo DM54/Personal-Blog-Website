@@ -1,22 +1,31 @@
 .maincontent{ //container for grid
  width: 100%;
  display: grid;
- grid-template-rows: 600px;
- //grid-template-columns: 100px;
+ grid-template-rows: 100px 200px 600px 100px;
+ //grid-template-columns: 700px 100px;
  grid-template-areas:
+ "hd hd hd hd hd hd hd hd "
  "ct ct ct ct ct ct sos sos"
+ "imgr imgr imgr imgr imgr imgr imgr imgr"
  "soc soc soc soc soc soc soc soc";
  border: 10px solid yellow;
+}
+#header{
+  grid-area: hd;
 }
 //content
 #blogfeat{
   grid-area: ct;
 }
-#sos{
+#imagerow{
+  grid-area: imgr;
+}
+#sos{//social links
   grid-area: sos;
 }
 #socials{
   grid-area: soc;
+  text-align: center;
 }
 
 .avatar{
@@ -37,14 +46,23 @@
   width: 100%;
   // height: 90vh;
    display: grid;
-   grid-template-rows: 250px 250px;
-   grid-template-columns: 150px;
+   grid-template-rows: 100px 600px ;
+   grid-template-columns: 250px;
    grid-template-areas:
-   "blg1 blg1 blg1 blg1 blg2 blg2 blg3 blg3";
-   grid-gap: 10px 10px;
-  // border: 4px solid blue;
-}
+   "blg1 blg1 blg1 blg2 blg2 blg2 blg3 blg3";
+  /* "blg1 blg1 blg1 blg1 blg1 blg1 blg1 blg1"
+   "blg2 blg2 blg2 blg2 blg2 blg2 blg2 blg2"
+   "blg3 blg3 blg3 blg3 blg3 blg3 blg3 blg3";*/
+   grid-gap: 10px;
+  border: 4px solid blue;
 
+}
+#blog{
+  grid-area: blg;
+  text-align: center;
+  margin: auto;
+
+}
 #blog1{
   grid-area: blg1;
 }
@@ -55,8 +73,10 @@
   grid-area: blg3;
 }
 
-
-
-
+#align{
+  text-align: center;
+  background-color: aliceblue;
+  border: 50px solid aliceblue;
+}
 
 
