@@ -15,12 +15,14 @@
 }
 a:link{
   font-family: 'Courier New', Courier, monospace;
-  font-weight: bolder;
+  //font-weight: bolder;
   text-decoration: none;
+
 }
 a:hover{
-  text-decoration: underline;
-  background-color: antiquewhite;
+  background-color: #008CBA;
+  color: white;
+
 }
 #feature{
   grid-area: feat;
@@ -70,6 +72,37 @@ ol>li{
 h3{
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   font-style: italic;
+}
+
+#redcolor{
+  vertical-align: middle;
+  border-radius: 50%;
+  width: 90px;
+  height: 90px;
+  margin: auto;
+  color: white;
+  background-color: red;
+}
+
+#bluecolor{
+  vertical-align: middle;
+  border-radius: 50%;
+  width: 90px;
+  height: 90px;
+  margin: auto;
+  color: white;
+  background-color: #008CBA;
+}
+
+#azurecolor{
+  vertical-align: middle;
+  border-radius: 50%;
+  width: 90px;
+  height: 90px;
+  margin: auto;
+  color: black;
+  background-color: azure;
+  border: 1px solid black;
 }
 
 

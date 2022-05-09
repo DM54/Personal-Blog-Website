@@ -19,6 +19,9 @@
 
 a{
   padding: 10px;
+  background-color: white;
+  color: black;
+  border: 2px solid #008CBA;
 }
 
 #header{
@@ -71,3 +74,10 @@ a{
   box-shadow: 2px 3px 4px red;
 }
 
+.imagestyle{
+  width: 100%;
+}
+
+.cardcontainer{
+  padding: 2px 16px;
+}
