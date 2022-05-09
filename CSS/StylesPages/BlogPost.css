@@ -1,11 +1,11 @@
 .maincontent{ //container for grid
  width: 100%;
  display: grid;
- grid-template-rows: 100px 200px 600px 100px;
- //grid-template-columns: 700px 100px;
+ grid-template-rows: 100px 200px 300px 100px;
+ //grid-template-columns: 100px 100px;
  grid-template-areas:
- "hd hd hd hd hd hd hd hd "
- "ct ct ct ct ct ct sos sos"
+ "hd hd hd hd hd hd hd hd"
+ "ct ct ct ct ct ct ct ct"
  "imgr imgr imgr imgr imgr imgr imgr imgr"
  "soc soc soc soc soc soc soc soc";
  border: 10px solid yellow;
@@ -46,13 +46,10 @@
   width: 100%;
   // height: 90vh;
    display: grid;
-   grid-template-rows: 100px 600px ;
-   grid-template-columns: 250px;
+   grid-auto-rows: minmax(100px,auto);
+   grid-template-columns: repeat(3,1fr);
    grid-template-areas:
-   "blg1 blg1 blg1 blg2 blg2 blg2 blg3 blg3";
-  /* "blg1 blg1 blg1 blg1 blg1 blg1 blg1 blg1"
-   "blg2 blg2 blg2 blg2 blg2 blg2 blg2 blg2"
-   "blg3 blg3 blg3 blg3 blg3 blg3 blg3 blg3";*/
+   "blg1 blg2  blg3";
    grid-gap: 10px;
   border: 4px solid blue;
 
