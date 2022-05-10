@@ -1,8 +1,8 @@
 .maincontent{ //container for grid
  width: 100%;
  display: grid;
- grid-template-rows: 100px 200px 300px 100px;
- //grid-template-columns: 100px 100px;
+ grid-template-rows: 100px 1000px 100px;
+ //grid-template-columns: repeat(3,1fr);
  grid-template-areas:
  "hd hd hd hd hd hd hd hd"
  "ct ct ct ct ct ct ct ct"
@@ -19,9 +19,10 @@
 }
 #imagerow{
   grid-area: imgr;
+  padding: 20px 20px 20px 20px;
 }
 #sos{//social links
-  grid-area: sos;
+  text-align: center;
 }
 #socials{
   grid-area: soc;
@@ -33,16 +34,26 @@
   border-radius: 50%;
   width: 100px;
   height: 100px;
-  margin: 50px 200px 50px 200px;
+  margin: auto;
+  padding: 10px 10px 20px 10px;
 }
 
 .picsize{
   max-width: 100%;
-  height: auto;
-  margin: 10px 150px 10px 150px;
+  //height: auto;
+  margin-left: 300px;
+  padding: 30px 30px 30px 30px;
 }
 
-.blognestedgrid{
+.flexbox{
+  display: flex;
+  flex-direction: column;
+  border: 10px solid purple;
+ // justify-content: center;
+  align-items: center;
+}
+
+.bloggrid{
   width: 100%;
   // height: 90vh;
    display: grid;
