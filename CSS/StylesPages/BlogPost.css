@@ -1,4 +1,4 @@
-.maincontent{ //container for grid
+.maincontent{  /*container for grid*/
  width: 100%;
  display: grid;
  grid-auto-rows: minmax(100px, auto);
@@ -87,6 +87,34 @@ text-align: center;
   text-align: center;
   background-color: aliceblue;
   border: 50px solid aliceblue;
+}
+/* changes appearance from big screen to small screens */
+@media (max-width: 2000px) {
+  /*container for grid*/
+  .maincontent{
+    width: 140%;
+
+   }
+
+  .bloggrid{
+    width: 140%;
+
+  }
+
+@media (max-width: 1000px) {
+  /*container for grid*/
+  .maincontent{
+    width: 240%;
+
+   }
+
+  .bloggrid{
+    width: 240%;
+
+  }
+
+}
+
 }
 
 

@@ -108,4 +108,22 @@ h3{
   color: white;
 }
 
+/* The width 900px or less, change the appearance for small & medium screens*/
+@media (max-width: 900px) {
+
+  .designsyscontainer h4 a{
+     text-decoration: underline;
+     border: none;
+     background-color: white;
+
+  }
+
+  .designsyscontainer h4 a:hover{
+    text-decoration: underline;
+    border: none;
+    background-color: white;
+    color: black;
+  }
+
+}
 

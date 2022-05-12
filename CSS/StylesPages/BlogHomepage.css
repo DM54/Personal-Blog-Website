@@ -88,3 +88,35 @@ figcaption{
   background-color: #008CBA;
   color: white;
 }
+
+/* The width 500px or less, change the appearance for small screens*/
+@media (max-width: 500px) {
+  .container{
+    width: 100%;
+    display: grid;
+    //grid-template-columns: 200px 200px ;
+    grid-template-rows: 100px 2020px 100px;
+    grid-template-areas:
+     "hd"
+     "main"
+     "ft";
+  }
+  .cardnestedgrid{
+    width: 70%;
+   // height: 90vh;
+    display: grid;
+    grid-auto-rows: minmax(400px, auto);
+    //grid-template-columns: repeat(1,1fr);
+    grid-template-areas:
+    "crd1"
+    "crd2"
+    "crd3"
+    "crd4" ;
+    grid-gap: 20px;
+   // border: 4px solid blue;
+  }
+
+
+
+
+}
