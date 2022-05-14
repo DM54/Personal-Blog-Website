@@ -10,26 +10,34 @@
    border: 10px solid olive;
 }
 
+
 #header{
   grid-area: hd;
   background-color: azure;
 }
+
+
 a:link{
   font-family: 'Courier New', Courier, monospace;
   //font-weight: bolder;
   text-decoration: none;
 
 }
+
+
 a:hover{
   background-color: #008CBA;
   color: white;
 
 }
+
+
 #feature{
   grid-area: feat;
   text-align: center;
 
 }
+
 
 .nestedgrid{
   width: 100%;
@@ -44,32 +52,47 @@ a:hover{
   border: 10px solid royalblue;
 }
 
+
 #foundations{
   grid-area: fd;
 }
+
+
 #components{
   grid-area: cm;
 }
+
+
 #patterns{
   grid-area: pt;
 }
+
+
 #pages{
   grid-area: pg;
 }
+
+
 
 
 p{
   font-weight: lighter;
 }
 
+
+
 ol>li{
   font-weight: lighter;
 }
+
+
 
 h3{
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   font-style: italic;
 }
+
+
 
 #redcolor{
   vertical-align: middle;
@@ -81,6 +104,8 @@ h3{
   background-color: red;
 }
 
+
+
 #bluecolor{
   vertical-align: middle;
   border-radius: 50%;
@@ -90,6 +115,7 @@ h3{
   color: white;
   background-color: #008CBA;
 }
+
 
 #azurecolor{
   vertical-align: middle;
@@ -102,11 +128,13 @@ h3{
   border: 1px solid black;
 }
 
+
 .bgcolor{
   background-color: grey;
   text-align: center;
   color: white;
 }
+
 
 /* The width 900px or less, change the appearance for small & medium screens*/
 @media (max-width: 900px) {
@@ -117,6 +145,7 @@ h3{
      background-color: white;
 
   }
+
 
   .designsyscontainer h4 a:hover{
     text-decoration: underline;

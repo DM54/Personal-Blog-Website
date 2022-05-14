@@ -9,13 +9,16 @@
    "ft ft ft ft ft ft ft ft";
   //border: 10px solid yellow;
 }
+
+ /*flexbox*/
 .box{
  display: flex;
  align-items: center;
- justify-content: center; /*flexbox*/
+ justify-content: center;
  border: 10px solid red;
  padding: 5px;
 }
+
 
 a{
   padding: 10px;
@@ -24,17 +27,24 @@ a{
   border: 2px solid #008CBA;
 }
 
+
 #header{
   grid-area: hd;
  // background-color: beige;
 }
+
+
 #content{
   grid-area: main;
 }
+
+
 #footer{
   grid-area: ft;
   background-color: azure;
 }
+
+
 
 .cardnestedgrid{
   width: 100%;
@@ -49,19 +59,27 @@ a{
  // border: 4px solid blue;
 }
 
+
+
 #cardbox1{
   grid-area: crd1;
 }
 
+
 #cardbox2{
   grid-area: crd2;
 }
+
+
 #cardbox3{
   grid-area: crd3;
 }
+
+
 #cardbox4{
   grid-area: crd4;
 }
+
 
 .card{
   box-shadow: 2px 3px 4px gray;
@@ -70,17 +88,25 @@ a{
   height: 400px;
   margin: auto;
 }
+
+
 .card:hover{
   box-shadow: 2px 3px 4px red;
 }
+
+
 
 .imagestyle{
   width: 100%;
 }
 
+
+
 .cardcontainer{
   padding: 2px 16px;
 }
+
+
 
 figcaption{
   text-align: center;
@@ -88,6 +114,8 @@ figcaption{
   background-color: #008CBA;
   color: white;
 }
+
+
 
 /* The width 500px or less, change the appearance for small screens*/
 @media (max-width: 500px) {
@@ -101,6 +129,8 @@ figcaption{
      "main"
      "ft";
   }
+
+
   .cardnestedgrid{
     width: 70%;
    // height: 90vh;

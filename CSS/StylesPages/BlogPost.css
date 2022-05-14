@@ -10,24 +10,34 @@
  "soc soc soc soc soc soc soc soc";
  border: 10px solid yellow;
 }
+
+
 #header{
   grid-area: hd;
 }
-//content
+
+/*content*/
 #blogfeat{
   grid-area: ct;
 }
+
+
 #imagerow{
   grid-area: imgr;
   padding: 0px 20px 20px 20px;
 }
+
+
 #sos{//social links
   text-align: center;
 }
+
+
 #socials{
   grid-area: soc;
   text-align: center;
 }
+
 
 .avatar{
   vertical-align: middle;
@@ -38,12 +48,14 @@
   padding: 0px 10px 0px 0px;
 }
 
+
 .picsize{
   max-width: 100%;
   //height: auto;
   margin-left: 300px;
   padding: 0px 30px 0px 30px;
 }
+
 
 .flexbox{
   display: flex;
@@ -52,9 +64,13 @@
  // justify-content: center;
   align-items: center;
 }
+
+
 #headingalignment{
 text-align: center;
 }
+
+
 .bloggrid{
   width: 100%;
   // height: 90vh;
@@ -67,27 +83,37 @@ text-align: center;
   border: 4px solid blue;
 
 }
+
+
 #blog{
   grid-area: blg;
   text-align: center;
   margin: auto;
 
 }
+
 #blog1{
   grid-area: blg1;
 }
+
+
 #blog2{
   grid-area: blg2;
 }
+
+
 #blog3{
   grid-area: blg3;
 }
+
 
 #align{
   text-align: center;
   background-color: aliceblue;
   border: 50px solid aliceblue;
 }
+
+
 /* changes appearance from big screen to small screens */
 @media (max-width: 2000px) {
   .maincontent{
@@ -95,32 +121,44 @@ text-align: center;
 
    }
 
+
   .bloggrid{
     width: 100%;
 
   }
+
   .picsize{
     margin: 0px 200px 0px 500px;
   }
+
 
   #align{
     width: 100%;
     padding: 0px 20px 0px 20px;
   }
 
+
 }
+
+
 @media (max-width: 1000px) {
   .maincontent{  /*container for grid*/
     width: 100%;
   }
+
+
   .bloggrid{
     width: 130%;
 
   }
+
+
   #imagerow{
     padding: 100px 200px 100px 200px;
     line-height: 3rem;
   }
+
+
   .picsize{
     max-width: 100%;
     //height: auto;
@@ -133,22 +171,32 @@ text-align: center;
     width: 210%;
     padding: 0px 20px 0px 20px;
   }
+
 }
 
+
 @media (max-width: 600px) {
+
+
   body{
     padding: 0px 50px 0px 50px;
   }
+
+
   /*container for grid*/
   .maincontent{
     width: 280%;
 
    }
 
+
+
   .bloggrid{
     width: 280%;
 
   }
+
+
   .picsize{
     max-width: 100%;
     //height: auto;
@@ -161,29 +209,40 @@ text-align: center;
     width: 230%;
     padding: 0px 20px 0px 20px;
   }
+
+
 }
 
 @media (max-width: 500px) {
+
+
   .maincontent{
     width: 290%;
   }
+
+
   body{
     padding: 0px 30px 0px 30px;
   }
+
 
  .picsize{
    width: 90%;
    margin-left: 20px ;
  }
 
+
  #imagerow{
   padding: 100px 100px 100px 100px;
   line-height: 3rem;
 }
+
+
 #align{
   width: 240%;
   padding: 0px 20px 0px 20px;
 }
+
 
 }
 
