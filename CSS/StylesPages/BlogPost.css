@@ -114,69 +114,10 @@ text-align: center;
 }
 
 
-/* changes appearance from big screen to small screens */
-@media (max-width: 2000px) {
-  .maincontent{
-    width: 100%;
-
-   }
 
 
-  .bloggrid{
-    width: 100%;
 
-  }
-
-  .picsize{
-    margin: 0px 200px 0px 500px;
-  }
-
-
-  #align{
-    width: 100%;
-    padding: 0px 20px 0px 20px;
-  }
-
-
-}
-
-
-@media (max-width: 1000px) {
-  .maincontent{  /*container for grid*/
-    width: 100%;
-  }
-
-
-  .bloggrid{
-    width: 130%;
-
-  }
-
-
-  #imagerow{
-    padding: 100px 200px 100px 200px;
-    line-height: 3rem;
-  }
-
-
-  .picsize{
-    max-width: 100%;
-    //height: auto;
-    margin-left: 200px;
-    padding: 0px 30px 0px 30px;
-  }
-
-
-  #align{
-    width: 210%;
-    padding: 0px 20px 0px 20px;
-  }
-
-}
-
-
-@media (max-width: 600px) {
-
+@media (min-width: 600px) and (max-width: 900px) {
 
   body{
     padding: 0px 50px 0px 50px;
@@ -210,19 +151,19 @@ text-align: center;
     padding: 0px 20px 0px 20px;
   }
 
-
 }
 
-@media (max-width: 500px) {
 
+@media (max-width:600px) {
 
-  .maincontent{
-    width: 290%;
+  body{
+    padding: 0px 50px 0px 50px;
   }
 
 
-  body{
-    padding: 0px 30px 0px 30px;
+  .maincontent{
+    width: 400%;
+
   }
 
 
@@ -239,8 +180,13 @@ text-align: center;
 
 
 #align{
-  width: 240%;
+  width: 340%;
   padding: 0px 20px 0px 20px;
+}
+
+.bloggrid{
+  width: 400%;
+
 }
 
 
