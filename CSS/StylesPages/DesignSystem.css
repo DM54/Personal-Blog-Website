@@ -142,7 +142,7 @@ h3{
   .designsyscontainer h4 a{
      text-decoration: underline;
      border: none;
-     background-color: white;
+     background-color: transparent;
 
   }
 
@@ -150,7 +150,7 @@ h3{
   .designsyscontainer h4 a:hover{
     text-decoration: underline;
     border: none;
-    background-color: white;
+    background-color: transparent;
     color: black;
   }
 

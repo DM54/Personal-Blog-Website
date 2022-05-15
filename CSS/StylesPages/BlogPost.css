@@ -8,7 +8,7 @@
  "ct ct ct ct ct ct ct ct"
  "imgr imgr imgr imgr imgr imgr imgr imgr"
  "soc soc soc soc soc soc soc soc";
- border: 10px solid yellow;
+ //border: 10px solid yellow;
 }
 
 
@@ -24,7 +24,9 @@
 
 #imagerow{
   grid-area: imgr;
-  padding: 0px 20px 20px 20px;
+  padding: 0px 200px 20px 200px;
+ // padding: 100px 200px 100px 200px;
+  line-height: 3rem;
 }
 
 
@@ -52,7 +54,7 @@
 .picsize{
   max-width: 100%;
   //height: auto;
-  margin-left: 300px;
+  margin-left: 20px;
   padding: 0px 30px 0px 30px;
 }
 
@@ -60,7 +62,7 @@
 .flexbox{
   display: flex;
   flex-direction: column;
-  border: 10px solid purple;
+  //border: 10px solid purple;
  // justify-content: center;
   align-items: center;
 }
@@ -80,7 +82,7 @@ text-align: center;
    grid-template-areas:
    "blg1 blg2  blg3";
    grid-gap: 10px;
-  border: 4px solid blue;
+ // border: 4px solid blue;
 
 }
 
@@ -138,10 +140,16 @@ text-align: center;
   }
 
 
+ #imagerow{
+  padding: 100px 100px 100px 100px;
+  line-height: 3rem;
+}
+
+
   .picsize{
     max-width: 100%;
     //height: auto;
-    margin-left: 5px;
+    margin-left: 200px;
     padding: 0px 30px 0px 30px;
   }
 
@@ -174,7 +182,7 @@ text-align: center;
 
 
  #imagerow{
-  padding: 100px 100px 100px 100px;
+  padding: 100px 90px 100px 90px;
   line-height: 3rem;
 }
 
