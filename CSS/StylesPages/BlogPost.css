@@ -126,6 +126,7 @@ text-align: center;
   }
 
 
+
   /*container for grid*/
   .maincontent{
     width: 280%;
@@ -143,6 +144,7 @@ text-align: center;
  #imagerow{
   padding: 100px 100px 100px 100px;
   line-height: 3rem;
+  font-size: 35px;
 }
 
 
@@ -159,6 +161,28 @@ text-align: center;
     padding: 0px 20px 0px 20px;
   }
 
+
+  a{
+    font-size: 30px;
+  }
+
+
+#headingalignment{
+  font-size: 45px;
+  }
+
+  .cardadjust{
+    width: 90%;
+    height: 800px;
+    font-size: 35px;
+
+  }
+
+
+  .fontsize{
+    font-size: 35px;
+  }
+
 }
 
 /*width 600px or less screens*/
@@ -167,6 +191,12 @@ text-align: center;
   body{
     padding: 0px 50px 0px 50px;
   }
+
+  #headingalignment{
+    font-size: 45px;
+    }
+
+
 
 
   .maincontent{
@@ -184,6 +214,7 @@ text-align: center;
  #imagerow{
   padding: 100px 90px 100px 90px;
   line-height: 3rem;
+  font-size: 35px;
 }
 
 
@@ -194,9 +225,38 @@ text-align: center;
 
 .bloggrid{
   width: 400%;
+  display: block;
 
 }
 
+a{
+  font-size: 30px;
+}
+
+.cardadjust{
+  width: 40%;
+  height: 800px;
+  font-size: 35px;
+}
+
+
+.fontsize{
+  font-size: 35px;
+}
+
+}
+
+@media (max-width: 400px){
+
+  .cardadjust{
+    width: 70%;
+    height: 800px;
+    font-size: 35px;
+  }
+
+  .fontsize{
+    font-size: 35px;
+  }
 
 }
 
