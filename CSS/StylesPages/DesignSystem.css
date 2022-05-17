@@ -7,7 +7,7 @@
    "hd hd hd hd hd hd hd hd"
    "feat feat feat feat feat feat feat feat";
    margin: 10px 15px 10px 15px;
-   border: 10px solid olive;
+  // border: 10px solid olive;
 }
 
 
@@ -49,7 +49,7 @@ a:hover{
   grid-gap: 10px;
   border-bottom: 2px solid red;
   border-radius: 3rem;
-  border: 10px solid royalblue;
+  //border: 10px solid royalblue;
 }
 
 

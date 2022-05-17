@@ -118,7 +118,7 @@ text-align: center;
 
 
 
-
+/*width between 600px and 900px screens*/
 @media (min-width: 600px) and (max-width: 900px) {
 
   body{
@@ -161,7 +161,7 @@ text-align: center;
 
 }
 
-
+/*width 600px or less screens*/
 @media (max-width:600px) {
 
   body{
